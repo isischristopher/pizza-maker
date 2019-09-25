@@ -1,5 +1,7 @@
-const buttonClick = () => {
-    console.log('hi');
+import cheese from './components/cheese.js';
+
+const init = () => {
+    cheese.printCheeseOptions();
 };
 
-document.getElementById('myFirstButton').addEventListener('click', buttonClick);
+init();
